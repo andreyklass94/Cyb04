@@ -21,5 +21,4 @@
 Сохранили профиль на будущее, жмем Open и подключаемся уже по ключу без ввода пароля от user@10.10.0.11:
 ![authorized_keys](pic5.png)
 
-[//]: # (([Back to main](//Readme.md))  
 [Back to main](https://github.com/andreyklass94/Cyb04/tree/main)

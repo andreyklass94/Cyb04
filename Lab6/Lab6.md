@@ -4,11 +4,15 @@
 
 ### На VM Uubuntu настроить SSH по лучшим практикам
 
+[Manual](https://wiki.merionet.ru/articles/luchshie-praktiki-po-zashhite-ssh-podklyucheniya)
+
 ![ssh_config](pic1.png)
 
 Сгенерировать на Windows host либо Kali linux VM (ssh-keygen) приватный и публичный ключ, добавить ключ (замок) ssh-add либо scp на ubuntu VM где настроили ssh
 
 ### Подключиться к ubuntu VM используя приватный ключ
+
+[Manual](https://www.youtube.com/watch?v=Ld9xoFVeiS0)
 
 На Windows устанавливаем PuTTY и в PuTTYKeyGenerator создаем публичный и приватный ключи.
 ![PuTTYKeyGen](pic2.png)
@@ -24,6 +28,8 @@
 
 ### Настроить WireGuardVPN и организовать подключение по нему
 
+[Manual](https://habr.com/ru/sandbox/189100/)
+
 Устанавливаем WireGuardVPN на Ubuntu:
 ` curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh `
 `chmod +x wireguard-install.sh`
@@ -31,7 +37,7 @@
 ![wireguard1](pic6.png)
 ![wireguard2](pic7.png)
 
-В конце установки для подключения к WGVPN появился файл `/home/user/wg0-client-wg.conf`. Копируем его на гостевую ОС Windows 10, добавляем его в утановленный клиент WGVPN и устанавливаем соединение:
+В конце установки для подключения к WGVPN появился файл `/home/user/wg0-client-wg.conf`. Копируем его на гостевую ОС Windows 10, добавляем его в уcтановленный клиент WGVPN и устанавливаем соединение:
 ![wireguard3](pic8.png)
 Как видим, наше VPN-соединение успешно установлено и пакетики бегут через VPN-сервер 10.66.66.1, затем через цепочку маршрутизаторов попадают в интернет.
 

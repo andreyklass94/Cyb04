@@ -2,12 +2,13 @@
 
 ## ДЗ №6 Криптография
 
-На VM Uubuntu настроить SSH по лучшим практикам
+### На VM Uubuntu настроить SSH по лучшим практикам
 
 ![ssh_config](pic1.png)
 
 Сгенерировать на Windows host либо Kali linux VM (ssh-keygen) приватный и публичный ключ, добавить ключ (замок) ssh-add либо scp на ubuntu VM где настроили ssh
-Подключиться к ubuntu VM используя приватный ключ
+
+### Подключиться к ubuntu VM используя приватный ключ
 
 На Windows устанавливаем PuTTY и в PuTTYKeyGenerator создаем публичный и приватный ключи.
 ![PuTTYKeyGen](pic2.png)
@@ -20,5 +21,19 @@
 
 Сохранили профиль на будущее, жмем Open и подключаемся уже по ключу без ввода пароля от user@10.10.0.11:
 ![authorized_keys](pic5.png)
+
+### Настроить WireGuardVPN и организовать подключение по нему
+
+Устанавливаем WireGuardVPN на Ubuntu:
+` curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh `
+`chmod +x wireguard-install.sh`
+При установке все предлагаемые парамсетры оставляем по умолчанию:
+![wireguard1](pic6.png)
+![wireguard2](pic7.png)
+
+В конце установки для подключения к WGVPN появился файл `/home/user/wg0-client-wg.conf`. Копируем его на гостевую ОС Windows 10, добавляем его в утановленный клиент WGVPN и устанавливаем соединение:
+![wireguard3](pic8.png)
+Как видим, наше VPN-соединение успешно установлено и пакетики бегут через VPN-сервер 10.66.66.1, затем через цепочку маршрутизаторов попадают в интернет.
+
 
 [Back to main](https://github.com/andreyklass94/Cyb04/tree/main)

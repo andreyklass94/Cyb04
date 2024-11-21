@@ -1,10 +1,10 @@
 # Cyb04-onl
 
-## ДЗ №8 Типы атак II
-Spam, DDOS, botnet, MIM, Viruses
+## ДЗ №9 Социальная инженерия, фишинг
+Spam, Spam, Fishing, Social Engineering
 
-### Провести DOS атаку на Juice Shop 
-[Install Docker on Kali](https://www.kali.org/docs/containers/installing-docker-on-kali/)
+### Разослать фишинговое письмо с уникальной информацией, ведущее на копию крупного ресурса (соцсети, почты и т.д.)
+[Установить](https://www.youtube.com/watch?v=y4sIesUADD8) [setoolkit](https://github.com/trustedsec/social-engineer-toolkit) на Ubuntu VM 
 
 `kali@kali:~$ sudo apt update`
 `kali@kali:~$ sudo apt install -y docker.io`

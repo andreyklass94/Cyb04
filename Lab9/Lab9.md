@@ -6,25 +6,22 @@ Spam, Spam, Fishing, Social Engineering
 ### Разослать фишинговое письмо с уникальной информацией, ведущее на копию крупного ресурса (соцсети, почты и т.д.)
 [Установить](https://www.youtube.com/watch?v=y4sIesUADD8) [setoolkit](https://github.com/trustedsec/social-engineer-toolkit) на Ubuntu VM 
 
-`kali@kali:~$ sudo apt update`
-`kali@kali:~$ sudo apt install -y docker.io`
-`kali@kali:~$ sudo systemctl enable docker --now`
-`kali@kali:~$ docker`
+`git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/`
+`cd setoolkit`
+`pip3 install -r requirements.txt` *- недостающее отсюда ставим руками*
+`python setup.py`
+`setoolkit` :
 
-![Docker](pic1.png)
-![Docker](pic2.png)
+![SET](pic1.png)
+![Copy instagram](pic2.png)
 
-[Install Juice-Shop](https://github.com/juice-shop/juice-shop?tab=readme-ov-file#setup)
+Пишем письмо и отправляем его человеку, маскируя [ссылку](http://10.10.0.11:80) на нужный сервис, и перехватываем введенные им данные авторизации:
+![Logit to instagram](pic3.png)
+![Captured Passwd](pic4.png)
 
-Run `docker pull bkimminich/juice-shop`
-Run `docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop`
-Browse to `http://localhost:3000`
+Тот же функционал предоставляет сервис **GoPhish**
 
-![Juice-Shop](pic3.png)
-
-Download, compile and run [XERXES](https://github.com/XCHADXFAQ77X/XERXES):
-![Juice-Shop](pic4.png)
-
+(Позже сделаю)
 
 
 [Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)

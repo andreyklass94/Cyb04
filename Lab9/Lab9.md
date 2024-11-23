@@ -31,4 +31,4 @@ Spam, Spam, Fishing, Social Engineering
 ![GoPhish](pic8.png)  
 
 [Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)  
-[main](\..\Readme.md)
+[Back to main (PC)](\..\Readme.md)

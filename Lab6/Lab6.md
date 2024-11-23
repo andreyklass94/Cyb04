@@ -41,5 +41,5 @@
 ![wireguard3](pic8.png)
 Как видим, наше VPN-соединение успешно установлено и пакетики бегут через VPN-сервер 10.66.66.1, затем через цепочку маршрутизаторов попадают в интернет.
 
-
-[Back to main](https://github.com/andreyklass94/Cyb04/tree/main)
+[Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)  
+[Back to main (PC)](\..\Readme.md)

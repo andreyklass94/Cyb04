@@ -28,3 +28,4 @@ Download, compile and run [XERXES](https://github.com/XCHADXFAQ77X/XERXES):
 
 
 [Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)
+[Back to main (PC)](\..\Readme.md)

@@ -66,4 +66,5 @@ IPv4:
 IPv6:  
 ::ffff:0a0a0:0a0a  
 
-[Back to main](https://github.com/andreyklass94/Cyb04/tree/main)
+[Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)  
+[Back to main (PC)](\..\Readme.md)

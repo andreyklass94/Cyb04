@@ -25,8 +25,9 @@
 ![ICMP](pic4.png)
 ICMP
 
-*На 1 из сторон заменить хост на сервер, настроить на сервере web страничку, настроить NAT на роутере, добиться доступа по NAT inside global адресу к web серверу 
+*На 1 из сторон заменить хост на сервер, настроить на сервере web страничку, настроить NAT на роутере, добиться доступа по NAT inside global адресу к web серверу  
 
 ![WEB](pic5.png)
 
-[Back to main](https://github.com/andreyklass94/Cyb04/tree/main)
+[Back to main (GitHub)](https://github.com/andreyklass94/Cyb04/tree/main)  
+[Back to main (PC)](\..\Readme.md)
